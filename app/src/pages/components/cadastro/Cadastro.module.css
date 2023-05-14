@@ -1,0 +1,50 @@
+.conteiner{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    width: 25rem;
+    height: 27rem;
+    
+    
+}
+.itens{
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+}
+.input{
+    padding: 0.2rem;
+    width: 20rem;
+    outline: none;
+    border-radius: 2%;
+    font-size: 1.5rem;
+    font-family: Futara;
+
+}
+.input::placeholder{
+    font-size: 1.5rem;
+    font-family: Futara;
+    color: white;
+}
+.buttonC{
+    padding: 1rem;
+    font-size: large;
+    margin-left: 3rem;
+
+}
+.botaoLogin{
+    padding: 1rem;
+    font-size: large;
+    margin-left: 3rem;
+}
+
+.botaoCadastrar{
+    padding: 1rem;
+    font-size: large;
+    margin-left: 3rem;
+}
+
+
+
