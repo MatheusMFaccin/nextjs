@@ -12,10 +12,10 @@
 .itens{
     display: flex;
     justify-content: center;
-    margin-top: 3rem;
+    margin-top: 2.5rem;
 }
 .input{
-    padding: 0.2rem;
+    padding: 0.4rem;
     width: 20rem;
     outline: none;
     border-radius: 2%;
@@ -28,23 +28,51 @@
     font-family: Futara;
     color: white;
 }
-.buttonC{
-    padding: 1rem;
-    font-size: large;
-    margin-left: 3rem;
 
-}
 .botaoLogin{
     padding: 1rem;
     font-size: large;
-    margin-left: 3rem;
+    margin-left: 1.3rem;
+    
 }
+.input:focus{
+    border: 3px solid rgb(244 244 245);
+    border-radius: 2%;
+    animation: input-animation 0.3s ease-in-out;
 
+    
+}
+@keyframes input-animation {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.1);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
 .botaoCadastrar{
     padding: 1rem;
     font-size: large;
-    margin-left: 3rem;
+    margin-left: 5rem;
+    
+
 }
+.botaoCadastrar:hover{
+    background-color: rgb(22 101 52);
+    
+}
+.botaoLogin:hover{
+    
+    background-color: rgb(7 89 133);
+
+}
+
+
+
+
 
 
 

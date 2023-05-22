@@ -1,7 +1,7 @@
 import styles from './Cadastro.module.css'
 
-export default function inputForm({cor , placeholder}: {cor: String , placeholder: string}){
+export default function inputForm({cor , placeholder, value}: {cor: String , placeholder: string, value: string}){
     return(
-        <input type="text" className={`${cor} ${styles.input}`} placeholder={placeholder} />
+        <input type="text" value={value} className={`${cor} ${styles.input}`} placeholder={placeholder} />
     )
 }
