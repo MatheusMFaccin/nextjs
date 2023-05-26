@@ -15,8 +15,10 @@
   <l1>Ver como funciona o postgresql</li>
 </ul>
 
-<ul>
-  <h2> Como o sistema funciona </h2>
-  
-</ul>![Screenshot_1](https://github.com/MatheusMFaccin/nextjs/assets/96211501/81e5dc94-f862-488e-9ad4-912faf243175)
+
+<h2> Como o sistema funciona </h2>
+<img src = "https://github.com/MatheusMFaccin/nextjs/assets/96211501/0a624813-6d70-48c0-a20d-8dfdae96ac80" width = 945 heigth = 1220/>
+
+
+
 
