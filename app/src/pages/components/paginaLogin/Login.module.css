@@ -8,15 +8,15 @@
     left: 50%;
     transform: translate(-50%, -50%);
     padding: 20px;
-    width: 25rem;
-    height: 27rem;
+    width: 26rem;
+    height: 24rem;
     
     
 }
 .itens{
     display: flex;
     justify-content: center;
-    margin-top: 2.5rem;
+    margin-top: 3rem;
 }
 .input{
     padding: 0.4rem;
@@ -36,8 +36,11 @@
 .botaoLogin{
     padding: 1rem;
     font-size: large;
-    margin-left: 1.3rem;
+    margin-left: 1.8rem;
     border-radius: 0.7rem;
+    box-shadow: 2rem;
+    
+    
 }
 .input:focus{
     border: 3px solid rgb(244 244 245);
@@ -60,7 +63,7 @@
 .botaoCadastrar{
     padding: 1rem;
     font-size: large;
-    margin-left: 5rem;
+    margin-left: 4.3rem;
     border-radius: 0.7rem;
 
 }
