@@ -1,0 +1,13 @@
+.corpo{
+    width: 100vw;
+    height: 100vh;
+    padding-top: 2rem;  
+}
+.bloco{
+    
+    padding: 1rem;
+}
+.gerais{
+    display: flex;
+    justify-content: center;
+}
